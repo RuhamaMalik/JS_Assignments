@@ -1,4 +1,4 @@
-//111111111111111111--alert
+//11111111111111111111--alert
 
 // Q1. Write a script to greet your website visitor using JS alert
 // box. //alert("Hello!");
