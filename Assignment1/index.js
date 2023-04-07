@@ -1,14 +1,14 @@
 /*Q1 : Write a JavaScript program that accepts two numbers in two prompts and
 displays the larger one in the console.*/
 
-/*let num1 = +prompt('Enter First Number');
+let num1 = +prompt('Enter First Number');
 let num2 = +prompt('Enter Second Number');
 
 if (num1 > num2) {
   console.log(num1);
 } else {
   console.log(num2);
-}*/
+}
 
 /* Q2 : Write a JavaScript conditional statement to find the sign of a number. Display
 an alert box with the specified sign.
@@ -19,7 +19,7 @@ Output : The sign is -
 
 */
 
-/*let number = prompt('Enter Number');
+let number = prompt('Enter Number');
 
 if(number >= '0'){
   alert('The sign is +');
@@ -27,12 +27,12 @@ if(number >= '0'){
   alert('The sign is -')
 }else{
   alert('NaN');
-}*/
+}
 
 /*Q3 : Write a JavaScript program that accepts five numbers in five prompts and
 displays the larger one in the console.*/
 
-/*let numb1 = +prompt('Enter First Number',10);
+let numb1 = +prompt('Enter First Number',10);
 let numb2 = +prompt('Enter Second Number',4);
 let numb3 = +prompt('Enter Third Number',89);
 let numb4 = +prompt('Enter Fourth Number',1);
@@ -47,7 +47,7 @@ for(let i=0; i<numbers.length; i++){
     largerNum = numbers[i] ;
   }
 }
-console.log(largerNum);*/
+console.log(largerNum);
 
 /*Q4 : Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it
 will check if the current number is odd or even, and display a message to the
@@ -82,7 +82,7 @@ Range Grade
 <100 A */
 
 
-/*let sub1 = +prompt('Enter Maths Number', 95);
+let sub1 = +prompt('Enter Maths Number', 95);
 let sub2 = +prompt('Enter English Number', 62);
 let sub3 = +prompt('Enter Science Number', 73);
 
@@ -91,7 +91,7 @@ let obtainedMarks = sub1 + sub2 + sub3;
 
 let averageMarks = (obtainedMarks / totalMarks) * 100;
 
-//console.log(averageMarks);
+console.log(averageMarks);
 
 if(averageMarks < 60){
   console.log('Grade F');
@@ -103,7 +103,7 @@ if(averageMarks < 60){
   console.log('Grade B');
 }else if (averageMarks <= 100) {
   console.log('Grade A');
-}*/
+}
 
 /*Q6 : Write a JavaScript program which iterates the integers from 1 to 100. But for
 multiples of three print "Fizz" instead of the number and for the multiples of five
