@@ -87,6 +87,7 @@ times a visitor has visited a web page. Show his/her
 number of visits on your web page. For example: “You
 have visited this site N times”*/
 // var visited_time = 23;
+// visited_time++;
 // alert("You have visited this side " + visited_time + " times");
 
 /* Q3. Declare a variable called birthYear & assign to it your
