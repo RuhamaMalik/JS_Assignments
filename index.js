@@ -60,7 +60,8 @@ string concatenation)*/
 smarter way to learn JavaScript”. Display the following
 message in an alert box:*/
 // var book = "“A smarter way to learn JavaScript”";
-// alert(book);
+// var message = "I am trying to learn from the book ";
+// alert(book + message);
 
 /* Q8. Write a script to display this in browser through JS*/
 // var msg = "Yah! i can write HTML content through JS";
