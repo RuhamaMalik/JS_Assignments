@@ -94,6 +94,7 @@ have visited this site N times”*/
 birth year. Show the following message in your browser:*/
 // var birth_year = 2001;
 // document.write("my birth year is " + birth_year)
+// document.write("<br>Data type of my declared variable is "+typeof(birth_year));
 
 /* Q4. A visitor visits an online clothing store
 www.xyzClothing.com . Write a script to store in variables
@@ -113,12 +114,11 @@ Doe ordered 5 T-shirt(s) on XYZ Clothing store”*/
 // 444444444444---VARIABLE NAMES: Legal & Illegal 
 
 // Q1. Declare 3 variables in one statement.
-/*var namee = "Ruhama Gull", dateOfBirth = "10/August/2001", gender = "female";
- console.log(gender); 
- console.log(namee, dateOfBirth, gender);*/
+var namee , dateOfBirth , gender ;
+
 
 // Q2. Declare 5 legal & 5 illegal variable names.
-/*var myName = "Ruhama",
+/*var myName ,
     $chool = "xyz school",
     D_O_B = "10/August/2001",
     name2 = "Gull",
