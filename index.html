@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmeent5</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+    <!--Chapter43-48 (Events)  -->
+<!-- Q1 -->
+
+<h3>Q1- Showing alert</h3>
+<a href="Javascript:void(0)" onclick="alert('Hello world!')">Click on me to show alert.</a>
+
+<!-- Q2 -->
+<h3>Q2- </h3>
+<div id="main">
+    <div id="pic"><img onclick="alert('Thanks for purchasing a phone(Nokia) from us ')" src="images/nokia.jpg" alt=""><p>Nokia.gif</p></div>
+    <div id="pic"><img onclick="alert('Thanks for purchasing a phone(GalaxyS6EdgePlus) from us ')" id="img1" src="images/galaxy.png" alt=""><p>GalaxyS6EdgePlus.gif</p></div>
+    <div id="pic"><img onclick="alert('Thanks for purchasing a phone(v10) from us ')" id="img1" src="images/v10.jpg" alt=""><p>v10.gif</p></div>
+    <div id="pic"><img onclick="alert('Thanks for purchasing a phone(HuwaweiP8) from us ')" id="img1" src="images/huwawiP8.png" alt=""><p>HuwaweiP8.gif</p></div>
+</div>
+
+
+ <!--Q3 -->
+ <h3>Q3- Delete Button</h3>
+ <table id="myTable" border="0">
+    <tr>
+      <th>Index</th>
+      <th>Name</th>
+      <th>Class</th>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>Jhone</td>
+      <td>10</td>
+      <td><button onclick="removeRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Doe</td>
+      <td>9</td>
+      <td><button onclick="removeRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mark</td>
+      <td>10</td>
+      <td><button onclick="removeRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>James</td>
+      <td>8</td>
+      <td><button onclick="removeRow(this)">Delete</button></td>
+    </tr>
+  </table>
+
+  <!-- Q4 -->
+  <h3>Q4- Swapping Images</h3>
+  <img id="car" src="images/car1.jpg" onmouseover="src='images/car2.jpg' " onmouseout="src='images/car1.jpg'"><br /><br />
+
+  <!-- Q5 -->
+
+  <h3>Counter</h3>
+  <button id="increment">increment</button>
+<span id="counter">0</span>
+  <button id="decrement">decrement</button> <br><br>
+
+
+  <!-- Assignment 49-52 -->
+  <!-- Q1 -->
+  <form id="form">
+    <h1>Q1- SignUp form</h1>
+
+    UserName: <input type="text" id="username" placeholder="Enter your name"><br /><br />
+    Email: <input type="email" id="email" placeholder="Enter your email" ><br /><br />
+    Password: <input type="password" id="password" placeholder="Enter password"><br><br>
+    <button type="button" onclick="fieldValues()">SignUp</button>
+  </form>
+  <p id="data"></p><br><br><br><br>
+
+<!-- Q2 -->
+<h1>Q2- Readmore paragraph.</h1>
+<p id="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel <a href="Javascript:void(0)" onclick="more()">read more</a></p><br><br>
+
+ <!-- Q3 -->
+ <h1>Q3- Fill form and Create Table</h1>
+
+<form id="form1" class="form1">
+  Name:<br>
+  <input type="text" id="name" placeholder="Ruhama"><br>
+  Last Name: <br>
+  <input type="text" id="lname" placeholder="Malik"><br>
+  Gender: <br>
+  <input type="text" id="gender" placeholder="male/female"> <br>
+  Age: <br>
+  <input type="number" id="age" placeholder="Enter Your Age"> <br><br>
+  <button type="button" id="submit" onclick="addRow()">Submit</button>
+</form><br><br>
+
+<table border="1" id="results">
+  <tr>
+    <th>Name</th>
+    <th>Last Name</th>
+    <th>Gender</th>
+    <th>Age</th>
+    <th><button type="button" onclick="vissibleForm()">Edit</button></th>
+  </tr>
+  <tr>
+    <td>Ruhama</td>
+    <td>Gull</td>
+        <td>Female</td>
+<td>20</td>
+<td><button type="button" onclick="delRow(this)">delete</button></td>
+  </tr>
+  <tr>
+    <td>Shah</td>
+    <td>Fahad</td>
+        <td>Male</td>
+<td>26</td>
+<td><button type="button" onclick="delRow(this)">delete</button></td>
+
+  </tr>
+</table>
+
+
+
+
+
+
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
